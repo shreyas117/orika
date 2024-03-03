@@ -214,6 +214,11 @@
     <build>
         <pluginManagement>
             <plugins>
+                  <plugin>
+                          <groupId>edu.illinois</groupId>
+                           <artifactId>nondex-maven-plugin</artifactId>
+                  <version>2.1.7</version>
+               </plugin>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-compiler-plugin</artifactId>
